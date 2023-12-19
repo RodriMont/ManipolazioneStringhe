@@ -31,7 +31,7 @@ public class ManipolazioneStringhe {
         return str.length();
     }
 
-    public static String ultimi_due_carattere(String str){
+    public static String ultimiDueCarattere(String str){
         return str.substring(str.length() - 2);
     }
 }
