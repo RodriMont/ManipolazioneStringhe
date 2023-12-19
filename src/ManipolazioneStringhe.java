@@ -8,6 +8,7 @@ public class ManipolazioneStringhe {
         String inputUtente = scanner.nextLine();
 
         System.out.println("Maiuscolo: " + maiuscolo(inputUtente));
+        System.out.println("Minuscolo: " + minuscolo(inputUtente));
         scanner.close();
 
         
@@ -15,5 +16,8 @@ public class ManipolazioneStringhe {
 
     public static String maiuscolo(String str){
         return str.toUpperCase();
+    }
+    public static String minuscolo(String str){
+        return str.toLowerCase();
     }
 }
