@@ -30,4 +30,8 @@ public class ManipolazioneStringhe {
     public static int lunghezza(String str){
         return str.length();
     }
+
+    public static String ultimi_due_carattere(String str){
+        return str.substring(str.length() - 2);
+    }
 }
