@@ -7,8 +7,9 @@ public class ManipolazioneStringhe {
         System.out.println("Inserisci una stringa: ");
         String inputUtente = scanner.nextLine();
 
-        System.out.println("Maiuscolo: " + maiuscolo(inputUtente));
-        System.out.println("Minuscolo: " + minuscolo(inputUtente));
+        System.out.println("Maiuscolo : " + maiuscolo(inputUtente));
+        System.out.println("Minuscolo : " + minuscolo(inputUtente));
+        System.out.println("Primo caratere : " + primoCarattere(inputUtente));
         scanner.close();
 
         
@@ -19,5 +20,9 @@ public class ManipolazioneStringhe {
     }
     public static String minuscolo(String str){
         return str.toLowerCase();
+    }
+
+    public static char primoCarattere(String str){
+        return str.charAt(0);
     }
 }
