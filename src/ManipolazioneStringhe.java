@@ -10,6 +10,7 @@ public class ManipolazioneStringhe {
         System.out.println("Maiuscolo : " + maiuscolo(inputUtente));
         System.out.println("Minuscolo : " + minuscolo(inputUtente));
         System.out.println("Primo caratere : " + primoCarattere(inputUtente));
+        System.out.println("Lunghezza: " + lunghezza(inputUtente));
         scanner.close();
 
         
@@ -24,5 +25,9 @@ public class ManipolazioneStringhe {
 
     public static char primoCarattere(String str){
         return str.charAt(0);
+    }
+
+    public static int lunghezza(String str){
+        return str.length();
     }
 }
