@@ -9,8 +9,9 @@ public class ManipolazioneStringhe {
 
         System.out.println("Maiuscolo : " + maiuscolo(inputUtente));
         System.out.println("Minuscolo : " + minuscolo(inputUtente));
-        System.out.println("Primo caratere : " + primoCarattere(inputUtente));
         System.out.println("Lunghezza: " + lunghezza(inputUtente));
+        System.out.println("Primo caratere : " + primoCarattere(inputUtente));
+        System.out.println("Ultimi due caratteri: " + ultimiDueCarattere(inputUtente));
         scanner.close();
 
         
